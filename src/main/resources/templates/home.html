@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Quản lí bệnh viện</title>
+</head>
+<body>
+<div class="big__container">
+    <div class="container">
+        <ul class = "root">
+            <li><a href="">Liên hệ</a></li>
+
+            <li>
+                <a href="">Tính lương</a>
+                <ul class = "sub">
+                    <li><a href="">Bác sĩ</a></li>
+                    <li><a href="">Y tá</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Xem thống kê</a>
+                <ul class = "sub">
+                    <li><a href="">Thống kê doanh thu</a></li>
+                    <li><a href="">Thống kê bệnh nhân</a></li>
+                    <li><a href="">Thống kê thuốc</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Quản lí bệnh viện</a>
+                <ul class = "sub">
+                    <li><a href="/bacsi">Quản lí bác sĩ</a></li>
+                    <li><a href="/yta/current">Quản lí y tá</a></li>
+                    <li><a href="">Quản lí thuốc</a></li>
+                    <li><a href="">Quản lí khám</a></li>
+                    <li><a href="">Quản lí bệnh nhân</a></li>
+                </ul>
+            </li>
+            <li><a href="">Trang chủ</a></li>
+        </ul>
+    </div>
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Dịch vụ trọn gói</h1>
+                <p class="w3-text-grey">Tại phòng khám chất lượng dịch vụ được
+                    đặt lên hàng đầu. Tất cả các dịch vụ đều được phục vụ theo yêu
+                    cầu của khách hàng. Chúng tôi luôn lấy cảm nhận của khách hàng để
+                    làm động lực nâng cao chất lượng chất lượng dịch vụ</p>
+            </div>
+            <img th:src="@{/images/pic1.jpg}" th:style="'width: 320px; height: 250px'"/>
+        </div>
+    </div>
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-third w3-center">
+                <img th:src="@{/images/pic2.jpg}" th:style="'width: 320px; height: 250px'"/>
+            </div>
+            <div class="w3-twothird">
+                <h1>Đội ngũ Bác sĩ chuyên nghiệp</h1>
+                <p class="w3-text-grey">Tại phòng khám chất lượng dịch vụ được
+                    đặt lên hàng đầu. Tất cả các dịch vụ đều được phục vụ theo yêu
+                    cầu của khách hàng. Chúng tôi luôn lấy cảm nhận của khách hàng để
+                    làm động lực nâng cao chất lượng chất lượng dịch vụ</p>
+            </div>
+        </div>
+    </div>
+    <!-- Third Grid-->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Chi phí phải chăng</h1>
+                <p class="w3-text-grey">Tại Phòng khám chất lượng dịch vụ được
+                    đặt lên hàng đầu. Tất cả các dịch vụ đều được phục vụ theo yêu
+                    cầu của khách hàng. Chúng tôi luôn lấy cảm nhận của khách hàng để
+                    làm động lực nâng cao chất lượng chất lượng dịch vụ</p>
+            </div>
+            <img th:src="@{/images/pic3.png}" th:style="'width: 320px; height: 250px'"/>
+        </div>
+    </div>
+
+</div>
+<footer class="footer">
+    <div class="container__footer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Bệnh viện</h4>
+                <ul>
+                    <li><a href="">Thông tin về bệnh viện</a></li>
+                    <li><a href="">Thành tích đạt được</a></li>
+                    <li><a href="">Lịch sử thành lập</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Trợ giúp</h4>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Hotline</a></li>
+                    <li><a href="">Báo cáo</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Mạng xã hội</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
